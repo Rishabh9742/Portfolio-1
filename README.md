@@ -1,4 +1,4 @@
-# React-Portfolio
+# Portfolio 1
 
 This is a [Next.js](https://nextjs.org) project 
 
