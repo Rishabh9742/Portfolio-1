@@ -2,33 +2,26 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "lint": "eslint ."
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
-    "@radix-ui/react-select": "2.2.6",
-    "@radix-ui/react-slot": "1.2.4",
-    "class-variance-authority": "^0.7.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "next": "^15.3.0",
+    "lucide-react": "^0.469.0",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.564.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "tailwind-merge": "^3.3.1"
+    "tailwind-merge": "^2.6.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.2.0",
-    "@tailwindcss/vite": "^4.2.0",
-    "@types/react": "^18.3.3",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^4.3.1",
-    "autoprefixer": "^10.4.20",
-    "postcss": "^8.5",
-    "tailwindcss": "^4.2.0",
-    "typescript": "^5.7.3",
-    "vite": "^5.4.0"
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.3",
+    "@types/react-dom": "^19.0.2",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0"
   }
 }
